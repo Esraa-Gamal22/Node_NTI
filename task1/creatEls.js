@@ -6,8 +6,7 @@ let users = [ {
     age : 22 ,
   },{ id : 2,
     name : 'ali' ,
-    
-    active : false ,
+     active : false ,
     age : 30,
   },{
     id : 3,
