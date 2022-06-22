@@ -9,6 +9,7 @@ const req=http.req(url, (res)=>{
     res.on("data",(mydata)=>{
     allData+=mydata.toString();
    })
+   
         res.on("end",()=>{
         console.log(JSON.parse(allData))
         })
