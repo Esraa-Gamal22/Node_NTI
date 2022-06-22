@@ -4,6 +4,7 @@ class DealWithJson {
     static readDataFromJSON = (fileName) => {
         let data
         try {
+            
             data = JSON.parse(fs.readFileSync(fileName))
             if (!Array.isArray(data)) throw new Error("data not valid")
             console.log("data featched")
